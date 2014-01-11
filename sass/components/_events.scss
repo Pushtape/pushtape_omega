@@ -1,0 +1,54 @@
+/**
+ * Event Styles
+ */
+.view-events {
+  font-size:.9em;
+}
+.view-events .views-field-title {
+  text-transform:uppercase;
+}
+.view-events .views-field-field-date {
+  width:15%;
+}
+.view-events td.views-field-body {
+  width:50%;
+  color:#333;
+}
+.view-events .views-row-last {
+  border-bottom:none;
+}
+.view-events td {
+  padding:.5em 1em;
+}
+#block-views-events-block-1 {
+  color:#999;
+  border-top:dashed 1px #DDD;
+  margin-top:2em;
+  padding-top:2em;
+}
+#block-views-events-block-1 h2 {
+
+}
+#block-views-events-block-1 .views-field-title,
+#block-views-events-block-1 .views-field-field-date  {
+
+}
+
+body.node-type-event .field-name-field-links {
+
+}
+body.node-type-event .field-name-field-links a {
+  float:left;
+  display:block;
+  padding:.75em 1.5em;
+  background:#F5f5f5;
+  border-left:solid .75em #EEE;
+  margin-right:.5em;
+  margin-bottom:.5em;
+  font-size:.9em;
+}
+
+body.node-type-event .field-name-field-links a:hover {
+  border-color:#E0E0E0;
+  background:#F3F3F3;
+}

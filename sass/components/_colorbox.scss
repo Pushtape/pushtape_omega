@@ -1,0 +1,17 @@
+/**
+ * Colorbox
+ */
+
+/* Ensure no border on colorbox button elements */
+/* Fix is upstream in dev http://drupal.org/node/1925056 */
+button,
+#cboxPrevious, 
+#cboxNext, 
+#cboxClose, 
+#cboxSlideshow {
+    border: none;
+}
+
+#cboxWrapper {
+  border-radius:0;
+}

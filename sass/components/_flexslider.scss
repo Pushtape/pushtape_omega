@@ -1,0 +1,24 @@
+/**
+ * News slideshow (flexslider)
+ */
+
+.flexslider {
+  background: none repeat scroll 0 0 #EEEEEE;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin: 0 0 60px;
+  position: relative;
+}
+
+#featured .flexslider .slides img {
+  padding: 0 1em;
+}
+
+#featured .flex-nav-container {
+  margin-bottom: 0;
+}
+
+.news-slideshow ul li {
+  margin: 0;
+}

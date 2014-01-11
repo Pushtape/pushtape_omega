@@ -1,0 +1,16 @@
+fieldset {
+  border: 1px solid #DDD;
+  margin: 0 0 1.4375em;
+  padding: 1.5em;
+  legend! {}
+}
+
+form .field-multiple-table th.field-label {
+  padding-left: auto;
+}
+
+.node-form .form-submit, .form-submit {
+  margin-right: 5px;
+  float: none;
+  display: inline-block;
+}

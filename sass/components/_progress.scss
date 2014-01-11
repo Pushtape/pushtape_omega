@@ -1,0 +1,25 @@
+/**
+ * Progress bar.
+ *
+ * @see progress.js
+ */
+.progress {
+  font-weight: bold;
+  .bar {
+    height: 35px;
+    background: #dddddd url(images/noise.png);
+    border-color: #d0d0d0;
+    /*BBB*/
+    border-bottom: solid #D0d0d0 1px;
+    border-right: solid #d0d0d0 1px;
+    border-width: 1px;
+    margin: 0 0.2em;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+  }
+  .filled {
+    height: 35px;
+    /*background: #0072b9 url(images/progress.gif);*/
+  }
+}

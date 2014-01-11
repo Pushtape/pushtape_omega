@@ -1,0 +1,34 @@
+name = Pushtape Omega
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/pushtape-omega.normalize.css
+stylesheets[all][] = css/pushtape-omega.hacks.css
+stylesheets[all][] = css/pushtape-omega.styles.css
+stylesheets[all][] = css/pushtape-omega.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/pushtape-omega.behaviors.js
+
+; Regions
+regions[top]            = Top
+regions[header]         = Header
+regions[navigation]     = Navigation
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[footer]         = Footer
+regions[bottom]         = Bottom
+
+
+; PLUGINS
+plugins[panels][layouts] = panels/layouts
+

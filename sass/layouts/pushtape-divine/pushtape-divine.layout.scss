@@ -1,0 +1,85 @@
+/*******************************************************************************
+ * pushtape-divine.layout.scss
+ *
+ * Styling of the "divine" layout demonstrating the golden rule and asymmetric
+ * grids with Singularity.
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+//Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
+.l-page {
+  width: 95%;
+  max-width: 110em;
+  margin: 0 auto;
+  background-color: rgba(202, 221, 226, 0.75);
+}
+
+.l-header {
+  @include pie-clearfix;
+  background-color: $light-blue;
+  padding-top: $vert-spacing-unit;
+  padding-bottom: $vert-spacing-unit;
+  padding-left: $horz-spacing-unit;
+  padding-right: $horz-spacing-unit;
+}
+
+.l-main {
+  @include pie-clearfix;
+  margin-bottom: $vert-spacing-unit;
+  padding-left: $horz-spacing-unit;
+  padding-right: $horz-spacing-unit;
+}
+
+.l-footer {
+  @include pie-clearfix;
+  background-color: $light-blue;
+  padding-top: $vert-spacing-unit;
+  padding-bottom: $vert-spacing-unit;
+  padding-left: $horz-spacing-unit;
+  padding-right: $horz-spacing-unit;
+}
+
+@include breakpoint($tab) {
+  /* Header Area */
+  .l-branding {
+    @include grid-span(1, 1);
+  }
+  .l-region--header {
+    @include grid-span(2, 1);
+  }
+  .l-region--navigation {
+    clear: both;
+  }
+
+  /* Content Area */
+  .l-content {
+    @include grid-span(2, 1);
+  }
+
+}
+
+@include breakpoint($desk, true) {
+  /* Header Area */
+  .l-header {
+    @include pie-clearfix;
+  }
+  .l-branding {
+    @include grid-span(1, 1);
+  }
+  .l-region--header {
+    @include grid-span(2, 1);
+  }
+  .l-region--navigation {
+    @include grid-span(2, 2);
+  }
+}
+
+  /* Content Area */
+  .l-content {
+    @include grid-span(1, 1);
+  }
+

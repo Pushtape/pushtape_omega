@@ -1,0 +1,94 @@
+/**
+ * LAYOUT
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\000035}}
+#container {
+  margin: 50px auto;
+  margin-bottom: 150px;
+  padding: 10px 0;
+  background-color: #FFF;
+  /* Default is fluid width. You *could* set a fixed width here if you need to.
+  But setting the width with media queries will result in more "responsive-y"
+  behavior. */
+  width: 100%;
+  /* Allow for setting background color opacity, allows bg to show through */
+  background: none repeat scroll 0 0 white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000318}}
+.container-inner {
+  padding: 0 2%; }
+
+/* Top and bottom block regions, they are outside of #container */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000324}}
+#top {
+  width: 100%;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000329}}
+#bottom {
+  width: 100%;
+  clear: both;
+  position: fixed;
+  bottom: 0; }
+
+/**
+ * MAIN
+ * 
+ */
+/* 1 column: global values*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000343}}
+#main {
+  /*display: inline;*/
+  margin: 0; }
+
+/* 3 columns */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000351}}
+body.two-sidebars #main {
+  float: left;
+  margin: 0 0 0 20%;
+  /* SB1 + G */
+  padding: 0;
+  width: 59.97%;
+  /* 99.97 - (SB1 + G) - (SB2 + G) */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000359}}
+body.sidebar-first #main {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 79.97%;
+  /* 99.97 - (SB1 + G)*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000366}}
+body.sidebar-second #main {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 79.97%;
+  /* 99.97 - (SB2 + G)*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000374}}
+body.two-sidebars #sidebar-first {
+  float: left;
+  margin: 0 0 0 -77.97%;
+  /* (SB1 + G) - 99.97] */
+  padding: 0;
+  width: 18%;
+  /* SB1 */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000382}}
+body.two-sidebars #sidebar-second {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 18%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000389}}
+body.sidebar-first #sidebar-first {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+  /* SB1 */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/bass\/bass\.layout\.scss}line{font-family:\0000396}}
+body.sidebar-second #sidebar-second {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+  /* SB2 */ }

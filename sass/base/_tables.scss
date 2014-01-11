@@ -1,0 +1,56 @@
+table {
+  margin-bottom: 1.5em;
+  width: 100%;
+}
+
+th, tr, td {
+  vertical-align: middle;
+}
+
+th {
+  padding-right: 1em;
+}
+
+.sticky-header th, .sticky-table th {
+  padding-right: 1em;
+  text-align: left;
+}
+
+tr {
+  &.even {
+    background-color: #FFF;
+    border-bottom: 1px solid #EEE;
+    padding: 1em 0.6em;
+  }
+  &.odd {
+    background-color: #FFF;
+    border-bottom: 1px solid #EEE;
+    padding: 1em 0.6em;
+    background-color: #F9F9F9;
+  }
+}
+
+tbody tr:hover {
+  background-color: #F6F6F6;
+}
+
+form .field-multiple-table th.field-label, td {
+  padding: .5em 1em;
+}
+
+th {
+  padding: .5em 1em;
+  font-size: .85em;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: solid #CCC .3em;
+  padding: .6em 1em;
+}
+
+td.active {
+  background: none;
+}
+
+th.active a.active img {
+  margin-left: 5px;
+}
