@@ -1,0 +1,155 @@
+@include establish-baseline($base-font-size);
+
+/**
+ * $BASE-TYPOGRAPHY
+ */
+html {
+  font-family: $lucida-grande;
+  color: $dark-grey;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: $dark-blue;
+  font-family: $trebuchet-ms;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1 {
+  &#page-title {
+    margin-bottom: .75em;
+  }
+  font-size: 2em;
+  line-height: 1.5;
+  margin-top: 0.75em;
+}
+
+.h1 {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-top: 0.75em;
+}
+
+h2, .h2 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h3, .h3 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-top: 1.2em;
+}
+
+h4, h5, h6, .h4, .h5, .h6 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 1.5em;
+}
+
+p {
+  margin: 0 0 1.5em 0;
+}
+
+/**
+ * $LINKS
+ */
+a {
+  @include link-colors($light-blue, $pale-orange, $orange);
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: $dark-blue;
+}
+
+li a.active {
+  color: $light-blue;
+}
+
+a {
+  &:focus {
+    outline: thin dotted;
+  }
+  &:hover, &:active {
+    outline: 0;
+  }
+}
+
+/* apply common styling after reset.css */
+
+strong, b, strong *, b * {
+  font-weight: bold !important;
+}
+
+em, i, em *, i * {
+  font-style: italic !important;
+}
+
+li {
+  ul, ol {
+    margin: 0;
+  }
+}
+
+ul, ol {
+  margin: 0 1.5em 1.5em 0;
+  padding-left: 1.5em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+dl {
+  margin: 0 0 1.5em 0;
+  dt {
+    font-weight: bold;
+  }
+}
+
+dd {
+  margin-left: 1.5em;
+}
+
+hr {
+  background: $mid-grey;
+  border: none;
+  clear: both;
+  float: none;
+  height: 1px;
+  margin: 0 0 1.4375em;
+  width: 100%;
+}
+
+img, object {
+  max-width: 100%;
+  height: auto;
+}
+
+input:disabled, isindex:disabled, textarea:disabled {
+  color: $mid-grey;
+}
+
+.vertical-tabs {
+  background: $mid-grey;
+  ul.vertical-tabs-list li {
+    background: $light-grey;
+    &.selected {
+      background: $off-white;
+    }
+  }
+}

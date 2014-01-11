@@ -1,0 +1,150 @@
+/**
+ * Maintenance Page
+ */
+body.maintenance-page {
+  background: #F0F0F0 url(images/stripe.png);
+  margin:0 auto;
+}
+
+body.maintenance-page ul.pager li a,
+body.maintenance-page ul.pager li.pager-current,
+body.maintenance-page ul.primary li a,
+body.maintenance-page .form-submit {
+  text-align:center;
+  padding:.75em 2em;
+}
+
+body.maintenance-page #container {
+  background: #FEFEFE url(images/noise.png);
+  padding:30px;
+  border:solid #DDD 1px;
+  width:800px;
+  margin:0 auto;
+}
+
+body.maintenance-page #header {
+  background: #FEFEFE url(images/noise.png);
+  padding:30px;
+  border-bottom:solid #DDD 1px;
+  border-left:solid #DDD 1px;
+  border-right:solid #DDD 1px;
+  width:800px;
+  margin:0 auto;
+  margin-bottom:10px;
+}
+
+body.maintenance-page #header #site-name-slogan {
+  margin:0 auto;
+  float:none;
+}
+
+body.maintenance-page #header #site-name a {
+  margin-left:40px;
+  padding-left:159px;
+  background:url(images/pushtape-logo.png) no-repeat center left;
+  line-height:60px;
+  display:block;
+  font-size:20px;
+  font-weight:normal;
+  color:#7d7f82;
+  font-variant:small-caps;
+}
+
+body.maintenance-page #main {
+  width:75%;
+}
+body.maintenance-page {
+  background: #f0f0f0 url(images/stripe.png);
+  margin: 0 auto;
+  ul {
+    &.pager li {
+      a, &.pager-current {
+        text-align: center;
+        padding: .75em 2em;
+      }
+    }
+    &.primary li a {
+      text-align: center;
+      padding: .75em 2em;
+    }
+  }
+  .form-submit {
+    text-align: center;
+    padding: .75em 2em;
+  }
+  #container {
+    background: #fefefe url(images/noise.png);
+    padding: 30px;
+    border: solid #DDD 1px;
+    width: 800px;
+    margin: 0 auto;
+  }
+  #header {
+    background: #fefefe url(images/noise.png);
+    padding: 30px;
+    border-bottom: solid #DDD 1px;
+    border-left: solid #DDD 1px;
+    border-right: solid #DDD 1px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    #site-name-slogan {
+      margin: 0 auto;
+      float: none;
+    }
+    #site-name a {
+      margin-left: 40px;
+      padding-left: 159px;
+      background: url(images/pushtape-logo.png) no-repeat center left;
+      line-height: 60px;
+      display: block;
+      font-size: 20px;
+      font-weight: normal;
+      color: #7d7f82;
+      font-variant: small-caps;
+    }
+  }
+  #main {
+    width: 75%;
+  }
+  #sidebar-first {
+    width: 20%;
+  }
+  .task-list {
+    margin: 0;
+    padding: 0;
+    text-indent: none;
+    li {
+      display: block;
+      line-height: 50px;
+      font-size: .857em;
+      color: #888888;
+      text-transform: uppercase;
+      border-left: solid 7px #EEEEEE;
+      padding-left: 1em;
+      &.active {
+        border-color: #F5EBB1;
+        background: #F4f4f4;
+        color: #555555;
+      }
+    }
+  }
+  li:hover {
+    /*background:#F4F4F4;*/
+  }
+  ul.post-install-notes {
+    list-style-type: square;
+  }
+  fieldset {
+    background: #F4f4f4;
+    legend {
+      font-size: 1.1em;
+    }
+    &.collapsed {
+      background: none;
+    }
+  }
+  #page-title {
+    font-variant: small-caps;
+  }
+}

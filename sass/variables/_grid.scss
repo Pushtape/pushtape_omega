@@ -1,0 +1,15 @@
+// Set consistent vertical and horizontal spacing units.
+$vert-spacing-unit: 10px;
+$horz-spacing-unit: 1em;
+
+// Set breakpoint values.
+$tab  : 700px;
+$desk : 1250px;
+
+// Set Singularity grid variables.
+$grids: 1;
+$grids: add-grid(25 15 at $tab);
+$grids: add-grid(25 15 9 at $desk);
+
+$gutters: 1/3;
+

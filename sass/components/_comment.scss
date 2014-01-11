@@ -1,0 +1,13 @@
+#comments {
+  clear: both;
+  margin-top: 1.5em;
+}
+
+.comment {
+  margin-bottom: 1.5em;
+  .new {
+    color: red;
+    text-transform: capitalize;
+    margin-left: 1em;
+  }
+}

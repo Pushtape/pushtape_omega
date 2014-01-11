@@ -1,0 +1,25 @@
+/**
+ * CSS SUPPORT
+ *
+ * Built-in classes:
+ * .clearfix                            | contain floats
+ * .element-invisible                   | hide element visually
+ * .element-invisible.element-focusable | allow element to be focusable when navigated to via keyboard
+ * .element-hidden                      | hide visually and from screenreaders
+ */
+ 
+/* clear floats */
+.clear { clear: both; }
+
+/* display block */
+.display-block { display: block; }
+
+.clearfix:after{
+  font-size:0;
+}
+.field-label-inline {
+  /** Removed problematic clearfix from field-label-inline elements (see template.php)
+   *  Use overflow method instead: http://www.quirksmode.org/css/clearing.html
+   **/
+  overflow:auto;
+}

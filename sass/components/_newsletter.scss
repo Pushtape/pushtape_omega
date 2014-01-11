@@ -1,0 +1,15 @@
+/**
+* Newsletter - hiding archive link and feed icon for newsletter signup
+*/
+
+#newsletter .issues-link, .feed-icon {
+  display:none;
+}
+
+#newsletter .pane-content {
+  padding: 5px;
+  background: #EEE;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
