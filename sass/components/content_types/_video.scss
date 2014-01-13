@@ -1,0 +1,33 @@
+/**
+ * Video Styles
+ */
+.view-video {
+  .views-row {
+    margin-bottom: 20px;
+  }
+  .views-field-title {
+    padding: 7px 15px;
+    background: #f3f3f3 url(images/noise.png);
+    font-size: 1.2em;
+  }
+  .views-field-field-video {
+    background: #f9f9f9 url(images/noise.png);
+    padding: 10px;
+    border: solid #F3f3f3f 5px;
+    border-width: 0 3px 3px 3px;
+    img {
+      border: solid 5px #000;
+      display: inline;
+      display: inline-block;
+      margin-right: 2px;
+      margin-bottom: 2px;
+    }
+  }
+}
+
+body.page-node .field-name-field-video .field-item img {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: solid 5px #000;
+}

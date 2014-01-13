@@ -23,3 +23,36 @@
     /*background: #0072b9 url(images/progress.gif);*/
   }
 }
+
+/* Animated throbber */
+html.js input.form-autocomplete {
+  background-image: url(images/throbber-static.gif);
+  background-position: 99% 50%;
+  /* LTR */
+  background-repeat: no-repeat;
+}
+
+span.views-throbbing {
+  background-image: url(images/throbber.gif);
+  background-position: 99% 50%;
+  /* LTR */
+  background-repeat: no-repeat;
+}
+
+html {
+  &.js input.throbbing {
+    background-image: url(images/throbber.gif);
+    background-position: 99% 50%;
+    /* LTR */
+    background-repeat: no-repeat;
+  }
+  .ajax-progress .throbber {
+    background: none;
+  }
+}
+
+/* File upload throbber */
+
+.ajax-progress-throbber {
+  background: transparent url(images/throbber.gif) center center no-repeat;
+}
