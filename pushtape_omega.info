@@ -18,17 +18,58 @@ stylesheets[all][] = css/pushtape-omega.no-query.css
 ; ========================================
 scripts[] = js/pushtape-omega.behaviors.js
 
+; ========================================
 ; Regions
-regions[top]            = Top
-regions[header]         = Header
-regions[navigation]     = Navigation
-regions[highlighted]    = Highlighted
-regions[help]           = Help
-regions[content]        = Content
-regions[footer]         = Footer
-regions[bottom]         = Bottom
+; ========================================
+regions[top] = Top
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[footer] = Footer
+regions[bottom] = Bottom
 
-
-; PLUGINS
+; ========================================
+; Plugins
+; ========================================
 plugins[panels][layouts] = panels/layouts
+version = 7.x-1.x-panels-dev
+project = pushtape_omega
+datestamp = 1389411757
 
+; ========================================
+; Settings
+; ========================================
+settings[toggle_logo] = 1
+settings[toggle_name] = 0
+settings[toggle_slogan] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
+settings[omega_toggle_front_page_content] = 1
+settings[default_logo] = 1
+settings[logo_path] = ""
+settings[logo_upload] = ""
+settings[default_favicon] = 1
+settings[favicon_path] = ""
+settings[favicon_upload] = ""
+settings[omega_enable_warning] = 1
+settings[omega_toggle_extension_layouts] = 1
+settings[omega_layout] = pushtape-divine
+settings[omega_toggle_extension_compatibility] = 1
+settings[omega_conditional_classes_html] = 1
+settings[omega_apple_touch] = 1
+settings[omega_cleartype] = 1
+settings[omega_handheld_friendly] = 1
+settings[omega_mobile_optimized] = 1
+settings[omega_viewport] = 1
+settings[omega_viewport_user_scaleable] = 1
+settings[omega_chrome_edge] = 1
+settings[omega_chrome_popup] = 0
+settings[omega_chrome_notice] = 0
+settings[omega_toggle_extension_assets] = 1
+settings[omega_libraries][selectivizr][status] = 0
+settings[omega_libraries][respond][status] = 0
+settings[omega_libraries][pie][status] = 0
+settings[omega_libraries][html5shiv][status] = 0
