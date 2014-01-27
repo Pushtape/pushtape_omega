@@ -4,14 +4,14 @@
  * Styling of the "divine" layout demonstrating the golden rule and asymmetric
  * grids with Singularity.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000314}}
 .l-page {
   width: 95%;
   max-width: 110em;
   margin: 0 auto;
   background-color: rgba(202, 221, 226, 0.75); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000321}}
 .l-header {
   *zoom: 1;
   background-color: #3498db;
@@ -25,7 +25,7 @@
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000330}}
 .l-main {
   *zoom: 1;
   margin-bottom: 10px;
@@ -37,7 +37,7 @@
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000337}}
 .l-footer {
   *zoom: 1;
   background-color: #3498db;
@@ -53,7 +53,7 @@
 
 @media (min-width: 700px) {
   /* Header Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000348}}
   .l-branding {
     width: 61.98347%;
     float: left;
@@ -61,7 +61,7 @@
     margin-left: 0%;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000351}}
   .l-region--header {
     width: 100.0%;
     float: right;
@@ -69,12 +69,12 @@
     margin-right: 0;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000354}}
   .l-region--navigation {
     clear: both; }
 
   /* Content Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000359}}
   .l-content {
     width: 100.0%;
     float: right;
@@ -83,7 +83,7 @@
     clear: none; } }
 @media (min-width: 1250px) {
   /* Header Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000367}}
   .l-header {
     *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.pushtape_omega\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
@@ -92,7 +92,7 @@
       display: table;
       clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000370}}
   .l-branding {
     width: 50.33557%;
     float: left;
@@ -100,7 +100,7 @@
     margin-left: 0%;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000373}}
   .l-region--header {
     width: 81.20805%;
     float: left;
@@ -108,7 +108,7 @@
     margin-left: 0%;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000376}}
   .l-region--navigation {
     width: 48.99329%;
     float: right;
@@ -116,7 +116,7 @@
     margin-right: 0;
     clear: none; } }
 /* Content Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/sites\/all\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/pushtape-divine\/pushtape-divine\.layout\.scss}line{font-family:\0000382}}
 .l-content {
   width: 100%;
   float: right;

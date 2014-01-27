@@ -178,11 +178,11 @@ ul.graphic li a.sm2_link {
 }
 
 .view-tracklist .ui360 .sm2-360btn-default {
-  background:url(images/play-default.png) no-repeat 50% 50%;
+  background:url(../images/play-default.png) no-repeat 50% 50%;
   background-size:contain;
 }
 .view-tracklist .ui360 .sm2-360btn-default:hover {
-  background:url(images/play-default-hover.png) no-repeat 50% 50%;
+  background:url(../images/play-default-hover.png) no-repeat 50% 50%;
   background-size:contain;
 }
 
@@ -190,12 +190,12 @@ ul.graphic li a.sm2_link {
 .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover,
 .view-tracklist .ui360,
 .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
-  background:url(images/play.png) no-repeat 50% 50%;
+  background:url(../images/play.png) no-repeat 50% 50%;
 
 }
 .view-tracklist .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover,
 .view-tracklist .ui360 .sm2-360btn-playing:hover {
-  background: url(images/pause.png) no-repeat 50% 50%;
+  background: url(../images/pause.png) no-repeat 50% 50%;
 }
 
 /**
@@ -244,30 +244,30 @@ ul.graphic li a.sm2_link {
   }
   .ui360 {
     .sm2-360btn-default {
-      background: url(images/play-default.png) no-repeat 50% 50%;
+      background: url(../images/play-default.png) no-repeat 50% 50%;
       background-size: contain;
       &:hover {
-        background: url(images/play-default-hover.png) no-repeat 50% 50%;
+        background: url(../images/play-default-hover.png) no-repeat 50% 50%;
         background-size: contain;
       }
     }
     &:hover {
-      background: url(images/play.png) no-repeat 50% 50%;
+      background: url(../images/play.png) no-repeat 50% 50%;
     }
     .sm2-360ui {
       &.sm2_paused .sm2-360btn {
         &:hover {
-          background: url(images/play.png) no-repeat 50% 50%;
+          background: url(../images/play.png) no-repeat 50% 50%;
         }
-        background: url(images/play.png) no-repeat 50% 50%;
+        background: url(../images/play.png) no-repeat 50% 50%;
       }
       &.sm2_playing .sm2-360btn:hover {
-        background: url(images/pause.png) no-repeat 50% 50%;
+        background: url(../images/pause.png) no-repeat 50% 50%;
       }
     }
-    background: url(images/play.png) no-repeat 50% 50%;
+    background: url(../images/play.png) no-repeat 50% 50%;
     .sm2-360btn-playing:hover {
-      background: url(images/pause.png) no-repeat 50% 50%;
+      background: url(../images/pause.png) no-repeat 50% 50%;
     }
   }
 }
@@ -318,30 +318,30 @@ ul.graphic li a.sm2_link {
   }
   .ui360 {
     .sm2-360btn-default {
-      background: url(images/play-default.png) no-repeat 50% 50%;
+      background: url(../images/play-default.png) no-repeat 50% 50%;
       background-size: contain;
       &:hover {
-        background: url(images/play-default-hover.png) no-repeat 50% 50%;
+        background: url(../images/play-default-hover.png) no-repeat 50% 50%;
         background-size: contain;
       }
     }
     &:hover {
-      background: url(images/play.png) no-repeat 50% 50%;
+      background: url(../images/play.png) no-repeat 50% 50%;
     }
     .sm2-360ui {
       &.sm2_paused .sm2-360btn {
         &:hover {
-          background: url(images/play.png) no-repeat 50% 50%;
+          background: url(../images/play.png) no-repeat 50% 50%;
         }
-        background: url(images/play.png) no-repeat 50% 50%;
+        background: url(../images/play.png) no-repeat 50% 50%;
       }
       &.sm2_playing .sm2-360btn:hover {
-        background: url(images/pause.png) no-repeat 50% 50%;
+        background: url(../images/pause.png) no-repeat 50% 50%;
       }
     }
-    background: url(images/play.png) no-repeat 50% 50%;
+    background: url(../images/play.png) no-repeat 50% 50%;
     .sm2-360btn-playing:hover {
-      background: url(images/pause.png) no-repeat 50% 50%;
+      background: url(../images/pause.png) no-repeat 50% 50%;
     }
   }
 }
