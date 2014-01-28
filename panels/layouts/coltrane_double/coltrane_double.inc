@@ -5,7 +5,7 @@ $plugin = array(
   'icon' => 'coltrane-double.png',
   'category' => t('Pushtape'),
   'theme' => 'coltrane_double',
-  'css' => 'coltrane-double.css',
+  'css' => 'css/layouts/coltrane-double/coltrane-double.layout.css',
   'regions' => array(
     'header' => t('Header'),
     'column1' => t('First Column'),
@@ -16,3 +16,4 @@ $plugin = array(
     'footer' => t('Footer'),
   ),
 );
+

@@ -1,0 +1,140 @@
+.responsive-menus.responsified {
+  clear: both;
+  width: 100%;
+}
+.responsive-menus.responsified span.toggler {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #333333;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 2px 2px 2px #000000;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-size: 1.35em;
+  outline-color: -moz-use-text-color;
+  outline-style: none;
+  outline-width: medium;
+  padding-bottom: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  text-align: center;
+}
+.responsive-menus.responsified.responsive-toggled span.toggler {
+  border-bottom-color: #BBBBBB;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.responsive-menus.responsified .responsive-menus-simple {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 2px 2px 2px #000000;
+  display: none;
+  width: 100%;
+}
+.responsive-menus.responsified.responsive-toggled .responsive-menus-simple, .responsive-menus.responsified.responsive-toggled .responsive-menus-simple ul {
+  display: block;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+.responsive-menus.responsified.responsive-toggled.absolute {
+  position: relative;
+  z-index: 999;
+}
+.responsive-menus.responsified.responsive-toggled.absolute .responsive-menus-simple {
+  position: absolute;
+  top: auto;
+  z-index: 999;
+}
+.responsive-menus.responsified .responsive-menus-simple li {
+  clear: both;
+  display: block;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  width: 100%;
+}
+.responsive-menus.responsified .responsive-menus-simple li a {
+  -moz-text-decoration-color: -moz-use-text-color;
+  -moz-text-decoration-line: none;
+  -moz-text-decoration-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+  border-bottom-style: solid;
+  border-bottom-width: .5px;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 1em;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.responsive-menus.responsified .responsive-menus-simple > li.last a {
+  border-bottom-color: -moz-use-text-color;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+}
+.responsive-menus.responsified .responsive-menus-simple li ul li a {
+  padding-bottom: 1em;
+  padding-left: 10%;
+  padding-right: 0;
+  padding-top: 1em;
+}
+.responsive-menus.responsified .responsive-menus-simple li ul li ul li a {
+  padding-bottom: 1em;
+  padding-left: 15%;
+  padding-right: 0;
+  padding-top: 1em;
+}
+.responsive-menus.responsified .responsive-menus-simple li ul {
+  display: block !important;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  visibility: visible !important;
+}
+.responsive-menus span.toggler {
+  display: none;
+}
