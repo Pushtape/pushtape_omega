@@ -84,7 +84,7 @@ ul {
 
 ul {
   &.pager li {
-    a, &.pager-current {
+    a, &.pager__item--current {
       font-weight: normal;
       margin-right: -1px;
       cursor: pointer;
@@ -203,7 +203,7 @@ ul {
       /*text-shadow: 0 0 1px #FFF;*/
     }
   }
-  &.pager li.pager-current {
+  &.pager li.pager__item--current {
     background: #c8c8c8 url(images/noise.png);
     /*C2C2C2*/
     border: 1px solid #AAAAAA;
@@ -215,7 +215,7 @@ ul {
     border-radius: 3px 0 0 3px;
   }
   &.pager li {
-    &.pager-first a, &.pager-current.first {
+    &.pager-first a, &.pager__item--current.first {
       border-radius: 3px 0 0 3px;
     }
   }
@@ -223,7 +223,7 @@ ul {
     border-radius: 0px 3px 3px 0;
   }
   &.pager li {
-    &.pager-last a, &.pager-current.last {
+    &.pager-last a, &.pager__item--current.last {
       border-radius: 0px 3px 3px 0;
     }
   }
