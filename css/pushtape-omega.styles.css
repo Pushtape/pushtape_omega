@@ -922,54 +922,11 @@ body.node-type-event .field-name-field-links a:hover {
 /**
  * Follow menu
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\000035}}
-#follow .pane-content {
-  padding: 5px;
-  background: #EEE;
-  border: 1px solid #FFFFFF;
-  border-radius: 6px 6px 6px 6px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000313}}
-#follow ul.menu li {
-  list-style: none outside none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000316}}
-#follow ul.menu li {
-  font-family: 'Open Sans',sans-serif;
-  font-weight: 400;
-  line-height: 15px;
-  margin-bottom: 15px;
-  margin-left: 0;
-  margin-top: 2px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000324}}
-#follow ul.menu li:hover {
-  background-color: #CECECE;
-  border-radius: 6px 6px 6px 6px;
-  cursor: pointer; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000329}}
-#follow ul.menu li a {
-  background-position: 2% 50%;
-  background-repeat: no-repeat;
-  color: #999999;
-  display: block;
-  font-family: 'Open Sans',sans-serif;
-  font-weight: 400;
-  height: 35px;
-  line-height: 16px;
-  padding-left: 50px;
-  padding-top: 5px;
-  text-decoration: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000342}}
-#follow ul.menu li a.facebook {
-  background-image: url("./images/icon_facebook.png"); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000345}}
-#follow ul.menu li a.twitter {
-  background-image: url("./images/icon_twitter.png"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\000036}}
+a.follow-link {
+  text-indent: -9999px;
+  float: left;
+  margin: 0 8px 8px 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 #footer {
@@ -1365,8 +1322,8 @@ html .ajax-progress .throbber {
   .field-name-field-tags div {
     display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_views\.scss}line{font-family:\000031}}
-.view-events, .view-news, .view-photosets, .view-releases, .view-albums, .view-tracks, .view-video {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_widgets\.scss}line{font-family:\000031}}
+.view-events, .view-news, .view-photosets, .view-releases, .view-albums, .view-tracks, .view-video, .follow-links {
   background: #fafafa url(images/noise.png);
   border: solid 2px #F2F2F2;
   padding: 1em;

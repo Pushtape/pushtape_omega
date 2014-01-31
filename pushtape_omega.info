@@ -75,25 +75,10 @@ settings[omega_libraries][pie][status] = 0
 settings[omega_libraries][html5shiv][status] = 0
 
 
-; Information added by drush on 2014-01-27
+
+; Information added by drush on 2014-01-31
 version = "7.x-1.x-panels-dev"
 core = "7.x"
 project = "pushtape_omega"
-datestamp = "1390847641"
-
-
-
-; Information added by drush on 2014-01-27
-version = "7.x-1.x-panels-dev"
-core = "7.x"
-project = "pushtape_omega"
-datestamp = "1390862197"
-
-
-
-; Information added by drush on 2014-01-29
-version = "7.x-1.x-panels-dev"
-core = "7.x"
-project = "pushtape_omega"
-datestamp = "1391024473"
+datestamp = "1391135873"
 
