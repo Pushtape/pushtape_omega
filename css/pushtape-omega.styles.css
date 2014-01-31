@@ -922,11 +922,168 @@ body.node-type-event .field-name-field-links a:hover {
 /**
  * Follow menu
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\000036}}
+/* Used for hiding the text */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\000037}}
 a.follow-link {
   text-indent: -9999px;
   float: left;
   margin: 0 8px 8px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000313}}
+span.follow-link-wrapper a {
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000317}}
+a.follow-link-facebook {
+  background-image: url(../images/follow/icons/large/icon-facebook.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000321}}
+a.follow-link-googleplus {
+  background-image: url(../images/follow/icons/large/icon-googleplus.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000325}}
+a.follow-link-myspace {
+  background-image: url(../images/follow/icons/large/icon-myspace.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000329}}
+a.follow-link-virb {
+  background-image: url(../images/follow/icons/large/icon-virb.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000333}}
+a.follow-link-bliptv {
+  background-image: url(../images/follow/icons/large/icon-bliptv.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000337}}
+a.follow-link-lastfm {
+  background-image: url(../images/follow/icons/large/icon-lastfm.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000341}}
+a.follow-link-youtube {
+  background-image: url(../images/follow/icons/large/icon-youtube.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000345}}
+a.follow-link-twitter {
+  background-image: url(../images/follow/icons/large/icon-twitter.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000349}}
+a.follow-link-picasa {
+  background-image: url(../images/follow/icons/large/icon-picasa.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000353}}
+a.follow-link-flickr {
+  background-image: url(../images/follow/icons/large/icon-flickr.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000357}}
+a.follow-link-vimeo {
+  background-image: url(../images/follow/icons/large/icon-vimeo.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000361}}
+a.follow-link-linkedin {
+  background-image: url(../images/follow/icons/large/icon-linkedin.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000365}}
+a.follow-link-delicious {
+  background-image: url(../images/follow/icons/large/icon-delicious.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000369}}
+a.follow-link-tumblr {
+  background-image: url(../images/follow/icons/large/icon-tumblr.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000373}}
+a.follow-link-this-site {
+  background-image: url(../images/follow/icons/large/icon-feed.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000377}}
+a.follow-link-viadeo {
+  background-image: url(../images/follow/icons/large/icon-viadeo.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000381}}
+a.follow-link-xing {
+  background-image: url(../images/follow/icons/large/icon-xing.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000385}}
+a.follow-link-spiceworks {
+  background-image: url(../images/follow/icons/large/icon-spiceworks.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000389}}
+a.follow-link-newsletter {
+  background-image: url(../images/follow/icons/large/icon-newsletter.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000395}}
+.follow-links.user a.follow-link-facebook {
+  background-image: url(../images/follow/icons/small/icon-facebook.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\0000399}}
+.follow-links.user a.follow-link-googleplus {
+  background-image: url(../images/follow/icons/small/icon-googleplus.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003103}}
+.follow-links.user a.follow-link-myspace {
+  background-image: url(../images/follow/icons/small/icon-myspace.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003107}}
+.follow-links.user a.follow-link-virb {
+  background-image: url(../images/follow/icons/small/icon-virb.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003111}}
+.follow-links.user a.follow-link-bliptv {
+  background-image: url(../images/follow/icons/small/icon-bliptv.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003115}}
+.follow-links.user a.follow-link-lastfm {
+  background-image: url(../images/follow/icons/small/icon-lastfm.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003119}}
+.follow-links.user a.follow-link-youtube {
+  background-image: url(../images/follow/icons/small/icon-youtube.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003123}}
+.follow-links.user a.follow-link-twitter {
+  background-image: url(../images/follow/icons/small/icon-twitter.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003127}}
+.follow-links.user a.follow-link-picasa {
+  background-image: url(../images/follow/icons/small/icon-picasa.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003131}}
+.follow-links.user a.follow-link-flickr {
+  background-image: url(../images/follow/icons/small/icon-flickr.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003135}}
+.follow-links.user a.follow-link-vimeo {
+  background-image: url(../images/follow/icons/small/icon-vimeo.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003139}}
+.follow-links.user a.follow-link-linkedin {
+  background-image: url(../images/follow/icons/small/icon-linkedin.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003143}}
+.follow-links.user a.follow-link-delicious {
+  background-image: url(../images/follow/icons/small/icon-delicious.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003147}}
+.follow-links.user a.follow-link-tumblr {
+  background-image: url(../images/follow/icons/small/icon-tumblr.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003151}}
+.follow-links.user a.follow-link-this-site {
+  background-image: url(../images/follow/icons/small/icon-feed.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003155}}
+.follow-links.user a.follow-link-viadeo {
+  background-image: url(../images/follow/icons/small/icon-viadeo.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003159}}
+.follow-links.user a.follow-link-xing {
+  background-image: url(../images/follow/icons/small/icon-xing.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003163}}
+.follow-links.user a.follow-link-spiceworks {
+  background-image: url(../images/follow/icons/small/icon-spiceworks.png); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_follow\.scss}line{font-family:\00003167}}
+.follow-links.user a.follow-link-newsletter {
+  background-image: url(../images/follow/icons/small/icon-newsletter.png); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_footer\.scss}line{font-family:\000031}}
 #footer {

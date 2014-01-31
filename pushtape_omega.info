@@ -82,3 +82,11 @@ core = "7.x"
 project = "pushtape_omega"
 datestamp = "1391135873"
 
+
+
+; Information added by drush on 2014-01-31
+version = "7.x-1.x-panels-dev"
+core = "7.x"
+project = "pushtape_omega"
+datestamp = "1391164255"
+
