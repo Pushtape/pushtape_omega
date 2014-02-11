@@ -2065,6 +2065,16 @@ body.page-node .field-name-field-video .field-item img {
   padding-top: 5px;
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/menus\/_panels-ipe\.scss}line{font-family:\000031}}
+div#panels-ipe-control-container {
+  background-color: rgba(0, 0, 0, 0);
+  bottom: auto;
+  box-shadow: none;
+  position: absolute;
+  right: -1px;
+  top: -8px;
+  width: auto; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/menus\/_responsive-menus\.scss}line{font-family:\000031}}
 .responsive-menus.responsified {
   clear: both;

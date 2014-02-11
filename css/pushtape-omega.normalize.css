@@ -301,10 +301,3 @@ textarea {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.pushtape_omega\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_box-sizing\.scss}line{font-family:\0000336}}
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  *behavior: url('../behaviors/box-sizing/boxsizing.php'); }
