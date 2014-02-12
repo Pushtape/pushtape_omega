@@ -339,6 +339,14 @@ img.panopoly-image-video {
   width: 100% !important;
   height: auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/base\/_media\.scss}line{font-family:\0000367}}
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/base\/_tables\.scss}line{font-family:\000031}}
 table {
   width: 100%;
