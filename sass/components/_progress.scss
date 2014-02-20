@@ -7,7 +7,7 @@
   font-weight: bold;
   .bar {
     height: 35px;
-    background: #dddddd url(images/noise.png);
+    background: #dddddd url(../images/noise.png);
     border-color: #d0d0d0;
     /*BBB*/
     border-bottom: solid #D0d0d0 1px;
@@ -20,20 +20,20 @@
   }
   .filled {
     height: 35px;
-    /*background: #0072b9 url(images/progress.gif);*/
+    /*background: #0072b9 url(../images/progress.gif);*/
   }
 }
 
 /* Animated throbber */
 html.js input.form-autocomplete {
-  background-image: url(images/throbber-static.gif);
+  background-image: url(../images/throbber-static.gif);
   background-position: 99% 50%;
   /* LTR */
   background-repeat: no-repeat;
 }
 
 span.views-throbbing {
-  background-image: url(images/throbber.gif);
+  background-image: url(../images/throbber.gif);
   background-position: 99% 50%;
   /* LTR */
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ span.views-throbbing {
 
 html {
   &.js input.throbbing {
-    background-image: url(images/throbber.gif);
+    background-image: url(../images/throbber.gif);
     background-position: 99% 50%;
     /* LTR */
     background-repeat: no-repeat;
@@ -54,5 +54,5 @@ html {
 /* File upload throbber */
 
 .ajax-progress-throbber {
-  background: transparent url(images/throbber.gif) center center no-repeat;
+  background: transparent url(../images/throbber.gif) center center no-repeat;
 }

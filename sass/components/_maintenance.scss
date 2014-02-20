@@ -2,7 +2,7 @@
  * Maintenance Page
  */
 body.maintenance-page {
-  background: #F0F0F0 url(images/stripe.png);
+  background: #F0F0F0 url(../images/stripe.png);
   margin:0 auto;
 }
 
@@ -15,7 +15,7 @@ body.maintenance-page .form-submit {
 }
 
 body.maintenance-page #container {
-  background: #FEFEFE url(images/noise.png);
+  background: #FEFEFE url(../images/noise.png);
   padding:30px;
   border:solid #DDD 1px;
   width:800px;
@@ -23,7 +23,7 @@ body.maintenance-page #container {
 }
 
 body.maintenance-page #header {
-  background: #FEFEFE url(images/noise.png);
+  background: #FEFEFE url(../images/noise.png);
   padding:30px;
   border-bottom:solid #DDD 1px;
   border-left:solid #DDD 1px;
@@ -41,7 +41,7 @@ body.maintenance-page #header #site-name-slogan {
 body.maintenance-page #header #site-name a {
   margin-left:40px;
   padding-left:159px;
-  background:url(images/pushtape-logo.png) no-repeat center left;
+  background:url(../images/pushtape-logo.png) no-repeat center left;
   line-height:60px;
   display:block;
   font-size:20px;
@@ -54,7 +54,7 @@ body.maintenance-page #main {
   width:75%;
 }
 body.maintenance-page {
-  background: #f0f0f0 url(images/stripe.png);
+  background: #f0f0f0 url(../images/stripe.png);
   margin: 0 auto;
   ul {
     &.pager li {
@@ -73,14 +73,14 @@ body.maintenance-page {
     padding: .75em 2em;
   }
   #container {
-    background: #fefefe url(images/noise.png);
+    background: #fefefe url(../images/noise.png);
     padding: 30px;
     border: solid #DDD 1px;
     width: 800px;
     margin: 0 auto;
   }
   #header {
-    background: #fefefe url(images/noise.png);
+    background: #fefefe url(../images/noise.png);
     padding: 30px;
     border-bottom: solid #DDD 1px;
     border-left: solid #DDD 1px;
@@ -95,7 +95,7 @@ body.maintenance-page {
     #site-name a {
       margin-left: 40px;
       padding-left: 159px;
-      background: url(images/pushtape-logo.png) no-repeat center left;
+      background: url(../images/pushtape-logo.png) no-repeat center left;
       line-height: 60px;
       display: block;
       font-size: 20px;

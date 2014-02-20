@@ -11,14 +11,14 @@
  */
 
 body.page-admin {
-  background: #f4f4f4 url(images/noise.png);
+  background: #f4f4f4 url(../images/noise.png);
   #container {
     background: none;
     margin-top: 0px;
   }
   #page-title {
     padding-left: 40px;
-    background: url(images/gears.png) no-repeat center left;
+    background: url(../images/gears.png) no-repeat center left;
     text-transform: uppercase;
   }
   .cover-image, #site-name, #header {
@@ -33,7 +33,7 @@ body.page-admin {
 }
 
 .node-form {
-  background: #fafafa url(images/noise.png);
+  background: #fafafa url(../images/noise.png);
   border: solid 1px #F2F2F2;
   padding: 20px;
   height: auto;

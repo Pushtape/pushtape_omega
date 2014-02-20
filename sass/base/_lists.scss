@@ -195,7 +195,7 @@ ul {
   }
   &.primary li {
     a.active, &.active a, a.active:hover {
-      background: #c8c8c8 url(images/noise.png);
+      background: #c8c8c8 url(../images/noise.png);
       /*C2C2C2*/
       border: 1px solid #AAAAAA;
       border-top: 1px solid #888888;
@@ -204,7 +204,7 @@ ul {
     }
   }
   &.pager li.pager__item--current {
-    background: #c8c8c8 url(images/noise.png);
+    background: #c8c8c8 url(../images/noise.png);
     /*C2C2C2*/
     border: 1px solid #AAAAAA;
     border-top: 1px solid #888888;

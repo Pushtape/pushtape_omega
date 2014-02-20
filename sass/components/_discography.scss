@@ -69,7 +69,7 @@ body.node-type-track .field-name-field-audio {
 .sm2-inline-list .ui360-vis:hover .sm2-360ui,
 .ui360-vis .sm2-360ui,
 .ui360-vis:hover .sm2-360ui {
-  background:#F1F5F7 url(images/noise.png);
+  background:#F1F5F7 url(../images/noise.png);
   border: solid #bdc3c7 5px;
   border-radius:50%;
 }
@@ -171,11 +171,11 @@ ul.graphic li a.sm2_link {
 }
 
 .view-tracklist .ui360 .sm2-360btn-default {
-  background:url(images/play-default.png) no-repeat 50% 50%;
+  background:url(../images/play-default.png) no-repeat 50% 50%;
   background-size:contain;
 }
 .view-tracklist .ui360 .sm2-360btn-default:hover {
-  background:url(images/play-default-hover.png) no-repeat 50% 50%;
+  background:url(../images/play-default-hover.png) no-repeat 50% 50%;
   background-size:contain;
 }
 
@@ -183,10 +183,10 @@ ul.graphic li a.sm2_link {
 .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover,
 .view-tracklist .ui360,
 .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
-  background:url(images/play.png) no-repeat 50% 50%;
+  background:url(../images/play.png) no-repeat 50% 50%;
 
 }
 .view-tracklist .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover,
 .view-tracklist .ui360 .sm2-360btn-playing:hover {
-  background: url(images/pause.png) no-repeat 50% 50%;
+  background: url(../images/pause.png) no-repeat 50% 50%;
 }
