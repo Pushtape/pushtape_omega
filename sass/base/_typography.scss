@@ -17,20 +17,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: normal;
 }
 
-h1 {
-  &#page-title {
-    margin-bottom: .5em;
-  }
-  font-size: 2em;
-  line-height: 1.2;
-  margin-top: 0.5em;
-}
-
 .h1 {
   font-size: 2em;
   line-height: 1.2;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+h1.site-name {
+  font-size: 3em;
+  line-height: 1;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+.site-name a {
+  font-weight: normal;
 }
 
 h2, .h2 {

@@ -41,8 +41,8 @@ datestamp = 1392110907
 ; ========================================
 ; Settings
 ; ========================================
-settings[toggle_logo] = 1
-settings[toggle_name] = 0
+settings[toggle_logo] = 0
+settings[toggle_name] = 1
 settings[toggle_slogan] = 1
 settings[toggle_node_user_picture] = 1
 settings[toggle_comment_user_picture] = 1
@@ -89,17 +89,9 @@ settings[responsive_tables_medium_priority_max_width] = ""
 settings[responsive_tables_low_priority_max_width] = ""
 
 
-; Information added by drush on 2014-02-20
+; Information added by drush on 2014-02-25
 version = "7.x-1.x-panels-dev"
 core = "7.x"
 project = "pushtape_omega"
-datestamp = "1392854764"
-
-
-
-; Information added by drush on 2014-02-21
-version = "7.x-1.x-panels-dev"
-core = "7.x"
-project = "pushtape_omega"
-datestamp = "1392940987"
+datestamp = "1393286896"
 
