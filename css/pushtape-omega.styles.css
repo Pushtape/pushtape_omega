@@ -1907,27 +1907,9 @@ body.page-node .field-name-field-video .field-item img {
   background-repeat: repeat;
   background-size: auto auto;
   display: block !important;
-  margin-bottom: 10px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 10px;
-  padding-bottom: 0;
+  padding: 5px;
   color: #FFFFFF;
   font-size: 1.25em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/menus\/_navigation\.scss}line{font-family:\0000319}}
-.navigation .primary-menu ul {
-  display: block;
-  float: left;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 10px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  width: 100%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/menus\/_panels-ipe\.scss}line{font-family:\000031}}
 div#panels-ipe-control-container {
