@@ -16,12 +16,12 @@
       <?php endif; ?>
       <?php print render($page['branding']); ?>
     </div>
-    <?php print render($page['header']); ?>
     <nav class="l-region--navigation navigation clearfix">
       <div class="primary-menu inline">
         <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
       </div>
     </nav>
+      <?php print render($page['header']); ?>
   </header>
 
 
