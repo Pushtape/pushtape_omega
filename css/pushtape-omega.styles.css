@@ -1859,7 +1859,7 @@ html .ajax-progress .throbber {
     display: inline; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_widgets\.scss}line{font-family:\000031}}
-.view-events, .view-news, .view-photosets, .view-releases, .view-albums, .view-tracks, .view-video, .follow-links {
+.fieldable-panels-pane, .view-events, .view-news, .view-photosets, .view-releases, .view-albums, .view-tracks, .view-video, .follow-links {
   background: #fafafa url(../images/noise.png);
   border: solid 2px #F2F2F2;
   padding: 1em;
