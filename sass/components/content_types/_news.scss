@@ -1,6 +1,5 @@
 /**
- * News View & Node
- *
+ * News Styles
  */
 .view-news .views-row {
   padding:.25% 4%;
@@ -35,25 +34,16 @@
   background:#F9F9F9;
 }
 
-ul.inline li {
-  padding: 0 .5em 0 .2em;
-  border-right: solid #DDD 1px;
-  text-transform: lowercase;
-  &.last {
-    border-right: none;
-  }
+ul.inline li.node-readmore {
+  padding:0;
+  margin:0;
 }
+.submitted {
+  color:#999;
+  margin-bottom:.5em;
+}
+body.node-type-news .content {
+  margin:0 auto;
 
-
-
-body.node-type-news {
-  .content {
-    margin: 0 auto;
-  }
-  .field-name-body {
-    /*font-family:georgia;*/
-    font-size: 1.25em;
-    color: #333;
-  }
 }
 

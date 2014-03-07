@@ -678,415 +678,6 @@ button,
   overflow: auto; }
 
 /**
- * Views for releases, albums, tracks
- *
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\000036}}
-#main .view-releases .views-row, #main .view-albums .views-row, #main .view-tracklist .views-row {
-  /* Alternate: inline-block instead of float to accomodate variable heights. IE fix: zoom:1; *display: inline; _height: 300px;
-  display:inline-block;
-  vertical-align:top;
-  */
-  float: left;
-  margin-right: 20px;
-  padding-bottom: 1%;
-  margin-bottom: 0;
-  height: 280px;
-  width: 225px;
-  /* artwork_medium imagecache*/ }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000321}}
-.view-releases .views-row .views-field-field-artwork img, .view-albums .views-row .views-field-field-artwork img, .view-tracklist .views-row .views-field-field-artwork img {
-  display: block;
-  border: 1px solid #949494;
-  float: left;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  padding: 1px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000330}}
-.view-releases .views-row .views-field-field-artwork img:hover, .view-albums .views-row .views-field-field-artwork img:hover, .view-tracklist .views-row .views-field-field-artwork img:hover {
-  border-color: #BFBFBF;
-  display: block; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000335}}
-.view-releases .views-row .views-field-field-artwork a, .view-albums .views-row .views-field-field-artwork a, .view-tracklist .views-row .views-field-field-artwork a {
-  background: 000;
-  display: block; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000340}}
-.view-releases .views-row .views-field-title a, .view-albums .views-row .views-field-title a, .view-tracklist .views-row .views-field-title a {
-  font-family: "Arvo", Georgia, serif;
-  font-style: italic;
-  display: block;
-  padding: .5em 1em;
-  padding-left: 0px; }
-
-/* Individual Track Audio & Player Styles*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000352}}
-.views-field-field-tracklist ul li,
-.views-field-field-tracklist ul {
-  list-style: none outside none;
-  margin: 0;
-  padding: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000358}}
-.views-field-field-audio ul li {
-  margin: 0;
-  padding: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000364}}
-.field-name-field-audio ul li,
-.field-name-field-audio ol li {
-  margin: 0;
-  padding: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000369}}
-.node-type-track .field-name-field-audio {
-  display: inline-block;
-  padding-top: 1em;
-  min-width: 80%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000378}}
-.sm2-inline-list .ui360-vis .sm2-360ui,
-.sm2-inline-list .ui360-vis:hover .sm2-360ui,
-.ui360-vis .sm2-360ui,
-.ui360-vis:hover .sm2-360ui {
-  background: #f1f5f7 url(../images/noise.png);
-  border: solid #bdc3c7 5px;
-  border-radius: 50%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000383}}
-.ui360-vis .sm2-canvas {
-  /* Negate the effect of the border width */
-  margin-top: -5px;
-  margin-left: -5px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000389}}
-.sm2-inline-list .ui360-vis a,
-.ui360-vis a {
-  text-transform: uppercase;
-  white-space: normal; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000394}}
-.sm2-inline-list .ui360-vis:hover a.sm2_link,
-.ui360-vis:hover a.sm2_link {
-  background-color: transparent; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\0000399}}
-ul.graphic li a,
-ul.graphic li a.sm2_link {
-  /* assume all items will be sounds rather than wait for onload etc. in this example.. may differ for your uses. */
-  display: inline-block;
-  padding-left: 22px;
-  min-height: 16px;
-  vertical-align: middle;
-  background-color: #336699;
-  border-radius: 3px;
-  padding: 3px 3px 3px 25px;
-  min-width: 85%;
-  text-decoration: none;
-  font-weight: normal;
-  color: #f6f9ff; }
-
-/* Album Tracklist View & Player styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003116}}
-#album.node ol, .node ul {
-  padding: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003120}}
-.view-tracklist ol {
-  list-style-position: inside;
-  margin-left: 0;
-  margin-top: 20px;
-  text-indent: 0;
-  padding-left: 0;
-  width: 450px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003130}}
-.view-tracklist .views-field-field-audio {
-  float: right; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003134}}
-.view-tracklist .views-row {
-  line-height: 50px;
-  padding: 5px 10px;
-  padding-left: 20px;
-  border-bottom: solid #EEE 1px;
-  list-style-type: decimal-leading-zero;
-  /*border-left:solid 10px #F5F2E3;*/ }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003143}}
-.view-tracklist .views-row-even {
-  /*border-left:solid 10px #FCFFE8;
-  border-left:solid 10px #FFEDBF;*/ }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003147}}
-.view-tracklist .views-row-last {
-  border-bottom: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003150}}
-.view-tracklist .views-row:hover {
-  background: #F6F6F6; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003154}}
-.view-tracklist .views-field-field-artist {
-  color: #777;
-  font-size: .9em;
-  font-style: italic;
-  margin-left: 1em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003160}}
-.view-tracklist .views-field-title {
-  font-weight: bold; }
-
-/* Tracklist Player UI 360 Style*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003166}}
-.view-tracklist .ui360 a,
-.view-tracklist .ui360-vis a {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003180}}
-.view-tracklist .ui360 .sm2-360btn-default {
-  background: url(../images/play-default.png) no-repeat 50% 50%;
-  background-size: contain; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003184}}
-.view-tracklist .ui360 .sm2-360btn-default:hover {
-  background: url(../images/play-default-hover.png) no-repeat 50% 50%;
-  background-size: contain; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003192}}
-.view-tracklist .ui360:hover,
-.view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover,
-.view-tracklist .ui360,
-.view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
-  background: url(../images/play.png) no-repeat 50% 50%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003197}}
-.view-tracklist .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover,
-.view-tracklist .ui360 .sm2-360btn-playing:hover {
-  background: url(../images/pause.png) no-repeat 50% 50%; }
-
-/* Track Player UI 360 Style*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003203}}
-.view-tracks .ui360 a,
-.view-tracks .ui360-vis a {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003217}}
-.view-tracks .ui360 .sm2-360btn-default {
-  background: url(../images/play-default.png) no-repeat 50% 50%;
-  background-size: contain; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003221}}
-.view-tracks .ui360 .sm2-360btn-default:hover {
-  background: url(../images/play-default-hover.png) no-repeat 50% 50%;
-  background-size: contain; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003229}}
-.view-tracks .ui360:hover,
-.view-tracks .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover,
-.view-tracks .ui360,
-.view-tracks .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
-  background: url(../images/play.png) no-repeat 50% 50%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003234}}
-.view-tracks .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover,
-.view-tracks .ui360 .sm2-360btn-playing:hover {
-  background: url(../images/pause.png) no-repeat 50% 50%; }
-
-/**
- * Individual Track Audio & Player Styles
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003242}}
-.view-tracklist ol {
-  list-style-position: inside;
-  margin-left: 0;
-  text-indent: 0;
-  padding-left: 0;
-  width: 450px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003249}}
-.view-tracklist .views-field-field-audio {
-  float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003252}}
-.view-tracklist .views-row {
-  line-height: 50px;
-  padding: 5px 10px;
-  padding-left: 20px;
-  border-bottom: solid #EEE 1px;
-  list-style-type: decimal-leading-zero;
-  /*border-left:solid 10px #F5F2E3;*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003260}}
-.view-tracklist .views-row-even {
-  /*border-left:solid 10px #FCFFE8;
-  border-left:solid 10px #FFEDBF;*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003264}}
-.view-tracklist .views-row-last {
-  border-bottom: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003267}}
-.view-tracklist .views-row:hover {
-  background: #F6F6F6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003270}}
-.view-tracklist .views-field-field-artist {
-  color: #777;
-  font-size: .9em;
-  font-style: italic;
-  margin-left: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003276}}
-.view-tracklist .views-field-title {
-  font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003279}}
-.view-tracklist .ui360 a, .view-tracklist .ui360-vis a {
-  display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003282}}
-.view-tracklist .ui360 {
-  background: url(../images/play.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003283}}
-  .view-tracklist .ui360 .sm2-360btn-default {
-    background: url(../images/play-default.png) no-repeat 50% 50%;
-    background-size: contain; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003286}}
-    .view-tracklist .ui360 .sm2-360btn-default:hover {
-      background: url(../images/play-default-hover.png) no-repeat 50% 50%;
-      background-size: contain; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003291}}
-  .view-tracklist .ui360:hover {
-    background: url(../images/play.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003295}}
-  .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
-    background: url(../images/play.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003296}}
-    .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover {
-      background: url(../images/play.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003301}}
-  .view-tracklist .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover {
-    background: url(../images/pause.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003306}}
-  .view-tracklist .ui360 .sm2-360btn-playing:hover {
-    background: url(../images/pause.png) no-repeat 50% 50%; }
-
-/* Tracklist Player UI 360 Style*/
-/* Album Tracklist View & Player styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003316}}
-.view-tracklist ol {
-  list-style-position: inside;
-  margin-left: 0;
-  text-indent: 0;
-  padding-left: 0;
-  width: 450px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003323}}
-.view-tracklist .views-field-field-audio {
-  float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003326}}
-.view-tracklist .views-row {
-  line-height: 50px;
-  padding: 5px 10px;
-  padding-left: 20px;
-  border-bottom: solid #EEE 1px;
-  list-style-type: decimal-leading-zero;
-  /*border-left:solid 10px #F5F2E3;*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003334}}
-.view-tracklist .views-row-even {
-  /*border-left:solid 10px #FCFFE8;
-  border-left:solid 10px #FFEDBF;*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003338}}
-.view-tracklist .views-row-last {
-  border-bottom: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003341}}
-.view-tracklist .views-row:hover {
-  background: #F6F6F6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003344}}
-.view-tracklist .views-field-field-artist {
-  color: #777;
-  font-size: .9em;
-  font-style: italic;
-  margin-left: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003350}}
-.view-tracklist .views-field-title {
-  font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003353}}
-.view-tracklist .ui360 a, .view-tracklist .ui360-vis a {
-  display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003356}}
-.view-tracklist .ui360 {
-  background: url(../images/play.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003357}}
-  .view-tracklist .ui360 .sm2-360btn-default {
-    background: url(../images/play-default.png) no-repeat 50% 50%;
-    background-size: contain; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003360}}
-    .view-tracklist .ui360 .sm2-360btn-default:hover {
-      background: url(../images/play-default-hover.png) no-repeat 50% 50%;
-      background-size: contain; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003365}}
-  .view-tracklist .ui360:hover {
-    background: url(../images/play.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003369}}
-  .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
-    background: url(../images/play.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003370}}
-    .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover {
-      background: url(../images/play.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003375}}
-  .view-tracklist .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover {
-    background: url(../images/pause.png) no-repeat 50% 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_discography\.scss}line{font-family:\00003380}}
-  .view-tracklist .ui360 .sm2-360btn-playing:hover {
-    background: url(../images/pause.png) no-repeat 50% 50%; }
-
-/**
- * Event Styles
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_events\.scss}line{font-family:\000034}}
-.view-events {
-  font-size: .9em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_events\.scss}line{font-family:\000037}}
-.view-events .views-field-title {
-  text-transform: uppercase; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_events\.scss}line{font-family:\0000310}}
-.view-events .views-field-field-date {
-  width: 15%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_events\.scss}line{font-family:\0000313}}
-.view-events td.views-field-body {
-  width: 50%;
-  color: #333; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_events\.scss}line{font-family:\0000317}}
-.view-events .views-row-last {
-  border-bottom: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_events\.scss}line{font-family:\0000320}}
-.view-events td {
-  padding: .5em 1em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_events\.scss}line{font-family:\0000323}}
-#block-views-events-block-1 {
-  color: #999;
-  border-top: dashed 1px #DDD;
-  margin-top: 2em;
-  padding-top: 2em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_events\.scss}line{font-family:\0000340}}
-body.node-type-event .field-name-field-links a {
-  float: left;
-  display: block;
-  padding: .75em 1.5em;
-  background: #F5f5f5;
-  border-left: solid .75em #EEE;
-  margin-right: .5em;
-  margin-bottom: .5em;
-  font-size: .9em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_events\.scss}line{font-family:\0000351}}
-body.node-type-event .field-name-field-links a:hover {
-  border-color: #E0E0E0;
-  background: #F3F3F3; }
-
-/**
  * News slideshow (flexslider)
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_flexslider\.scss}line{font-family:\000035}}
@@ -1475,53 +1066,6 @@ body.maintenance-page {
   font-size: 1.25em; }
 
 /**
- * News Styles
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_news\.scss}line{font-family:\000034}}
-.view-news .views-row {
-  padding: .25% 4%;
-  border-bottom: solid #EEE 1px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_news\.scss}line{font-family:\000039}}
-.view-news .views-row-last {
-  border-bottom: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_news\.scss}line{font-family:\0000316}}
-.view-news .views-row h2 {
-  margin-bottom: .25em;
-  font-size: 1.5em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_news\.scss}line{font-family:\0000321}}
-.view-news .views-row .field-name-body {
-  color: #666;
-  /*font-family:georgia;*/
-  text-align: justify; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_news\.scss}line{font-family:\0000326}}
-.view-news .views-row .submitted {
-  color: #999;
-  font-size: .8em;
-  margin-bottom: .5em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_news\.scss}line{font-family:\0000333}}
-.view-news .views-row:hover {
-  background: #F9F9F9; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_news\.scss}line{font-family:\0000337}}
-ul.inline li.node-readmore {
-  padding: 0;
-  margin: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_news\.scss}line{font-family:\0000341}}
-.submitted {
-  color: #999;
-  margin-bottom: .5em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_news\.scss}line{font-family:\0000345}}
-body.node-type-news .content {
-  margin: 0 auto; }
-
-/**
 * Newsletter - hiding archive link and feed icon for newsletter signup
 */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_newsletter\.scss}line{font-family:\000035}}
@@ -1681,6 +1225,114 @@ html .ajax-progress .throbber {
 .ajax-progress-throbber {
   background: transparent url(../images/throbber.gif) center center no-repeat; }
 
+/**
+ * RESPONSIVE GRIDS for Discography, Photos, and Video
+ */
+/*  SECTIONS
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\000038}}
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
+
+/*
+* GROUPING
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000320}}
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000325}}
+.group:after {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000329}}
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */ }
+
+/*
+* GRID COLUMN SETUP
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000338}}
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000344}}
+.col:first-child {
+  margin-left: 0; }
+
+/* all browsers except IE6 and lower */
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000350}}
+  .col {
+    margin: 1% 0 1% 0%; } }
+/*  GRID OF THREE  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000356}}
+.span_3_of_3 {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000359}}
+.span_2_of_3 {
+  width: 66.1%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000362}}
+.span_1_of_3 {
+  width: 32.2%; }
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000370}}
+  .span_3_of_3 {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000373}}
+  .span_2_of_3 {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000376}}
+  .span_1_of_3 {
+    width: 100%; } }
+/*  GRID OF FOUR */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000384}}
+.span_4_of_4 {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000388}}
+.span_3_of_4 {
+  width: 74.6%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000392}}
+.span_2_of_4 {
+  width: 49.2%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\0000396}}
+.span_1_of_4 {
+  width: 23.8%; }
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\00003104}}
+  .span_4_of_4 {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\00003107}}
+  .span_3_of_4 {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\00003110}}
+  .span_2_of_4 {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-grids\.scss}line{font-family:\00003113}}
+  .span_1_of_4 {
+    width: 100%; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_responsive-menus\.scss}line{font-family:\000031}}
 .responsive-menus.responsified {
   clear: both;
@@ -1916,107 +1568,409 @@ body.node-type-track .field--name-field-audio {
   width: 90%; }
 
 /**
- * Event Styles
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_events\.scss}line{font-family:\000034}}
-.view-events {
-  font-size: .9em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_events\.scss}line{font-family:\000037}}
-.view-events .views-field-title {
-  text-transform: uppercase; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_events\.scss}line{font-family:\0000310}}
-.view-events .views-field-field-date {
-  width: 15%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_events\.scss}line{font-family:\0000313}}
-.view-events td.views-field-body {
-  width: 50%;
-  color: #333; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_events\.scss}line{font-family:\0000317}}
-.view-events .views-row-last {
-  border-bottom: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_events\.scss}line{font-family:\0000320}}
-.view-events td {
-  padding: .5em 1em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_events\.scss}line{font-family:\0000323}}
-#block-views-events-block-1 {
-  color: #999;
-  border-top: dashed 1px #DDD;
-  margin-top: 2em;
-  padding-top: 2em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_events\.scss}line{font-family:\0000330}}
-body.node-type-event .field-name-field-links a {
-  float: left;
-  display: block;
-  padding: .75em 1.5em;
-  background: #F5f5f5;
-  border-left: solid .75em #EEE;
-  margin-right: .5em;
-  margin-bottom: .5em;
-  font-size: .9em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_events\.scss}line{font-family:\0000341}}
-body.node-type-event .field-name-field-links a:hover {
-  border-color: #E0E0E0;
-  background: #F3F3F3; }
-
-/**
- * News View & Node
+ * Views for releases, albums, tracks
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\0000351}}
+#main .view-releases .views-row, #main .view-albums .views-row, #main .view-tracklist .views-row {
+  /* Alternate: inline-block instead of float to accomodate variable heights. IE fix: zoom:1; *display: inline; _height: 300px;
+  display:inline-block;
+  vertical-align:top;
+  */
+  float: left;
+  margin-right: 20px;
+  padding-bottom: 1%;
+  margin-bottom: 0;
+  height: 280px;
+  width: 225px;
+  /* artwork_medium imagecache*/ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\0000366}}
+.view-releases .views-row .views-field-field-artwork img, .view-albums .views-row .views-field-field-artwork img, .view-tracklist .views-row .views-field-field-artwork img {
+  display: block;
+  border: 1px solid #949494;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\0000375}}
+.view-releases .views-row .views-field-field-artwork img:hover, .view-albums .views-row .views-field-field-artwork img:hover, .view-tracklist .views-row .views-field-field-artwork img:hover {
+  border-color: #BFBFBF;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\0000380}}
+.view-releases .views-row .views-field-field-artwork a, .view-albums .views-row .views-field-field-artwork a, .view-tracklist .views-row .views-field-field-artwork a {
+  background: 000;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\0000385}}
+.view-releases .views-row .views-field-title a, .view-albums .views-row .views-field-title a, .view-tracklist .views-row .views-field-title a {
+  font-family: "Arvo", Georgia, serif;
+  font-style: italic;
+  display: block;
+  padding: .5em 1em;
+  padding-left: 0px; }
+
+/* Individual Track Audio & Player Styles*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\0000397}}
+.views-field-field-tracklist ul li,
+.views-field-field-tracklist ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003103}}
+.views-field-field-audio ul li {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003109}}
+.field-name-field-audio ul li,
+.field-name-field-audio ol li {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003114}}
+.node-type-track .field-name-field-audio {
+  display: inline-block;
+  padding-top: 1em;
+  min-width: 80%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003123}}
+.sm2-inline-list .ui360-vis .sm2-360ui,
+.sm2-inline-list .ui360-vis:hover .sm2-360ui,
+.ui360-vis .sm2-360ui,
+.ui360-vis:hover .sm2-360ui {
+  background: #f1f5f7 url(../images/noise.png);
+  border: solid #bdc3c7 5px;
+  border-radius: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003128}}
+.ui360-vis .sm2-canvas {
+  /* Negate the effect of the border width */
+  margin-top: -5px;
+  margin-left: -5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003134}}
+.sm2-inline-list .ui360-vis a,
+.ui360-vis a {
+  text-transform: uppercase;
+  white-space: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003139}}
+.sm2-inline-list .ui360-vis:hover a.sm2_link,
+.ui360-vis:hover a.sm2_link {
+  background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003144}}
+ul.graphic li a,
+ul.graphic li a.sm2_link {
+  /* assume all items will be sounds rather than wait for onload etc. in this example.. may differ for your uses. */
+  display: inline-block;
+  padding-left: 22px;
+  min-height: 16px;
+  vertical-align: middle;
+  background-color: #336699;
+  border-radius: 3px;
+  padding: 3px 3px 3px 25px;
+  min-width: 85%;
+  text-decoration: none;
+  font-weight: normal;
+  color: #f6f9ff; }
+
+/* Album Tracklist View & Player styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003161}}
+#album.node ol, .node ul {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003165}}
+.view-tracklist ol {
+  list-style-position: inside;
+  margin-left: 0;
+  margin-top: 20px;
+  text-indent: 0;
+  padding-left: 0;
+  width: 450px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003175}}
+.view-tracklist .views-field-field-audio {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003179}}
+.view-tracklist .views-row {
+  line-height: 50px;
+  padding: 5px 10px;
+  padding-left: 20px;
+  border-bottom: solid #EEE 1px;
+  list-style-type: decimal-leading-zero;
+  /*border-left:solid 10px #F5F2E3;*/ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003188}}
+.view-tracklist .views-row-even {
+  /*border-left:solid 10px #FCFFE8;
+  border-left:solid 10px #FFEDBF;*/ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003192}}
+.view-tracklist .views-row-last {
+  border-bottom: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003195}}
+.view-tracklist .views-row:hover {
+  background: #F6F6F6; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003199}}
+.view-tracklist .views-field-field-artist {
+  color: #777;
+  font-size: .9em;
+  font-style: italic;
+  margin-left: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003205}}
+.view-tracklist .views-field-title {
+  font-weight: bold; }
+
+/* Tracklist Player UI 360 Style*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003211}}
+.view-tracklist .ui360 a,
+.view-tracklist .ui360-vis a {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003225}}
+.view-tracklist .ui360 .sm2-360btn-default {
+  background: url(../images/play-default.png) no-repeat 50% 50%;
+  background-size: contain; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003229}}
+.view-tracklist .ui360 .sm2-360btn-default:hover {
+  background: url(../images/play-default-hover.png) no-repeat 50% 50%;
+  background-size: contain; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003237}}
+.view-tracklist .ui360:hover,
+.view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover,
+.view-tracklist .ui360,
+.view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
+  background: url(../images/play.png) no-repeat 50% 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003242}}
+.view-tracklist .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover,
+.view-tracklist .ui360 .sm2-360btn-playing:hover {
+  background: url(../images/pause.png) no-repeat 50% 50%; }
+
+/* Track Player UI 360 Style*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003248}}
+.view-tracks .ui360 a,
+.view-tracks .ui360-vis a {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003262}}
+.view-tracks .ui360 .sm2-360btn-default {
+  background: url(../images/play-default.png) no-repeat 50% 50%;
+  background-size: contain; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003266}}
+.view-tracks .ui360 .sm2-360btn-default:hover {
+  background: url(../images/play-default-hover.png) no-repeat 50% 50%;
+  background-size: contain; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003274}}
+.view-tracks .ui360:hover,
+.view-tracks .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover,
+.view-tracks .ui360,
+.view-tracks .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
+  background: url(../images/play.png) no-repeat 50% 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003279}}
+.view-tracks .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover,
+.view-tracks .ui360 .sm2-360btn-playing:hover {
+  background: url(../images/pause.png) no-repeat 50% 50%; }
+
+/**
+ * Individual Track Audio & Player Styles
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003287}}
+.view-tracklist ol {
+  list-style-position: inside;
+  margin-left: 0;
+  text-indent: 0;
+  padding-left: 0;
+  width: 450px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003294}}
+.view-tracklist .views-field-field-audio {
+  float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003297}}
+.view-tracklist .views-row {
+  line-height: 50px;
+  padding: 5px 10px;
+  padding-left: 20px;
+  border-bottom: solid #EEE 1px;
+  list-style-type: decimal-leading-zero;
+  /*border-left:solid 10px #F5F2E3;*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003305}}
+.view-tracklist .views-row-even {
+  /*border-left:solid 10px #FCFFE8;
+  border-left:solid 10px #FFEDBF;*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003309}}
+.view-tracklist .views-row-last {
+  border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003312}}
+.view-tracklist .views-row:hover {
+  background: #F6F6F6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003315}}
+.view-tracklist .views-field-field-artist {
+  color: #777;
+  font-size: .9em;
+  font-style: italic;
+  margin-left: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003321}}
+.view-tracklist .views-field-title {
+  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003324}}
+.view-tracklist .ui360 a, .view-tracklist .ui360-vis a {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003327}}
+.view-tracklist .ui360 {
+  background: url(../images/play.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003328}}
+  .view-tracklist .ui360 .sm2-360btn-default {
+    background: url(../images/play-default.png) no-repeat 50% 50%;
+    background-size: contain; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003331}}
+    .view-tracklist .ui360 .sm2-360btn-default:hover {
+      background: url(../images/play-default-hover.png) no-repeat 50% 50%;
+      background-size: contain; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003336}}
+  .view-tracklist .ui360:hover {
+    background: url(../images/play.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003340}}
+  .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
+    background: url(../images/play.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003341}}
+    .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover {
+      background: url(../images/play.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003346}}
+  .view-tracklist .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover {
+    background: url(../images/pause.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003351}}
+  .view-tracklist .ui360 .sm2-360btn-playing:hover {
+    background: url(../images/pause.png) no-repeat 50% 50%; }
+
+/* Tracklist Player UI 360 Style*/
+/* Album Tracklist View & Player styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003361}}
+.view-tracklist ol {
+  list-style-position: inside;
+  margin-left: 0;
+  text-indent: 0;
+  padding-left: 0;
+  width: 450px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003368}}
+.view-tracklist .views-field-field-audio {
+  float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003371}}
+.view-tracklist .views-row {
+  line-height: 50px;
+  padding: 5px 10px;
+  padding-left: 20px;
+  border-bottom: solid #EEE 1px;
+  list-style-type: decimal-leading-zero;
+  /*border-left:solid 10px #F5F2E3;*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003379}}
+.view-tracklist .views-row-even {
+  /*border-left:solid 10px #FCFFE8;
+  border-left:solid 10px #FFEDBF;*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003383}}
+.view-tracklist .views-row-last {
+  border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003386}}
+.view-tracklist .views-row:hover {
+  background: #F6F6F6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003389}}
+.view-tracklist .views-field-field-artist {
+  color: #777;
+  font-size: .9em;
+  font-style: italic;
+  margin-left: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003395}}
+.view-tracklist .views-field-title {
+  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003398}}
+.view-tracklist .ui360 a, .view-tracklist .ui360-vis a {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003401}}
+.view-tracklist .ui360 {
+  background: url(../images/play.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003402}}
+  .view-tracklist .ui360 .sm2-360btn-default {
+    background: url(../images/play-default.png) no-repeat 50% 50%;
+    background-size: contain; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003405}}
+    .view-tracklist .ui360 .sm2-360btn-default:hover {
+      background: url(../images/play-default-hover.png) no-repeat 50% 50%;
+      background-size: contain; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003410}}
+  .view-tracklist .ui360:hover {
+    background: url(../images/play.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003414}}
+  .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn {
+    background: url(../images/play.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003415}}
+    .view-tracklist .ui360 .sm2-360ui.sm2_paused .sm2-360btn:hover {
+      background: url(../images/play.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003420}}
+  .view-tracklist .ui360 .sm2-360ui.sm2_playing .sm2-360btn:hover {
+    background: url(../images/pause.png) no-repeat 50% 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_discography\.scss}line{font-family:\00003425}}
+  .view-tracklist .ui360 .sm2-360btn-playing:hover {
+    background: url(../images/pause.png) no-repeat 50% 50%; }
+
+/**
+ * News Styles
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\000034}}
 .view-news .views-row {
   padding: .25% 4%;
   border-bottom: solid #EEE 1px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\000039}}
 .view-news .views-row-last {
   border-bottom: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000316}}
 .view-news .views-row h2 {
   margin-bottom: .25em;
   font-size: 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000321}}
 .view-news .views-row .field-name-body {
   color: #666;
   /*font-family:georgia;*/
   text-align: justify; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000326}}
 .view-news .views-row .submitted {
   color: #999;
   font-size: .8em;
   margin-bottom: .5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000333}}
 .view-news .views-row:hover {
   background: #F9F9F9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000338}}
-ul.inline li {
-  padding: 0 .5em 0 .2em;
-  border-right: solid #DDD 1px;
-  text-transform: lowercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000342}}
-  ul.inline li.last {
-    border-right: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000337}}
+ul.inline li.node-readmore {
+  padding: 0;
+  margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000341}}
+.submitted {
+  color: #999;
+  margin-bottom: .5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000345}}
 body.node-type-news .content {
   margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels-local\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/content_types\/_news\.scss}line{font-family:\0000353}}
-body.node-type-news .field-name-body {
-  /*font-family:georgia;*/
-  font-size: 1.25em;
-  color: #333; }
 
 /**
  * Photoset Styles
