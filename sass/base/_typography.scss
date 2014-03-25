@@ -62,31 +62,27 @@ p {
 /**
  * $LINKS
  */
-a {
-  @include link-colors($light-blue, $pale-orange, $orange);
-}
+
 
 a,
 a:visited {
-  color: inherit;
+  color: $dark-blue;
   text-decoration: none;
 }
 a:hover {
   color: $dark-blue;
+  text-decoration: none;
 }
 
 li a.active {
-  color: $dark-blue;
+  color: $off-white;
 }
 
-a {
-  &:focus {
-    outline: thin dotted;
-  }
-  &:hover, &:active {
-    outline: 0;
-  }
+li a.hover {
+  color: $off-white;
+  text-decoration: none;
 }
+
 
 /* apply common styling after reset.css */
 
