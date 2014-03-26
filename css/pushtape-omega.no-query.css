@@ -1488,6 +1488,10 @@ html .ajax-progress .throbber {
   left: 0;
   z-index: 1499; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_sweaver\.scss}line{font-family:\0000315}}
+body.sweaver {
+  padding-bottom: 300px; }
+
 /* tags */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/components\/_tags\.scss}line{font-family:\000033}}
 .field-name-field-tags {
