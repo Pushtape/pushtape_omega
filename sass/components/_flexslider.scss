@@ -3,19 +3,15 @@
  */
 
 .flexslider {
-  background-color: none;
-  margin: 0 0 60px;
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  zoom: 1;
+}
+
+.flex-control-nav {
+  bottom: -10px;
   position: relative;
 }
 
-#featured .flexslider .slides img {
-  padding: 0 1em;
-}
-
-#featured .flex-nav-container {
-  margin-bottom: 0;
-}
-
-.news-slideshow ul li {
-  margin: 0;
-}

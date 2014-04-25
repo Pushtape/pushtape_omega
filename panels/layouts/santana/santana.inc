@@ -1,11 +1,11 @@
 <?php
 // Plugin definition
 $plugin = array(
-  'title' => t('Santana Flipped'),
-  'icon' => 'santana-flipped.png',
+  'title' => t('Santana'),
+  'icon' => 'santana.png',
   'category' => t('Pushtape'),
-  'theme' => 'santana_flipped',
-  'css' => 'css/layouts/santana-flipped/santana-flipped.layout.css',
+  'theme' => 'santana',
+  'css' => 'css/layouts/santana/santana.layout.css',
   'regions' => array(
     'sidebar' => t('Sidebar'),
     'contentheader' => t('Content Header'),

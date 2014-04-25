@@ -1,0 +1,34 @@
+/**
+ * @file
+ * Bonham panel layout
+**/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/bonham\/bonham\.layout\.scss}line{font-family:\0000313}}
+.bonham-container {
+  margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/bonham\/bonham\.layout\.scss}line{font-family:\0000317}}
+.bonham-sidebar {
+  min-height: 1px;
+  width: 34.043%;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/bonham\/bonham\.layout\.scss}line{font-family:\0000323}}
+.bonham-sidebar-inner {
+  margin-right: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/bonham\/bonham\.layout\.scss}line{font-family:\0000327}}
+.bonham-content {
+  width: 65.957%;
+  float: left; }
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/bonham\/bonham\.layout\.scss}line{font-family:\0000335}}
+  .bonham-content,
+  .bonham-sidebar {
+    width: 100%;
+    float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/bonham\/bonham\.layout\.scss}line{font-family:\0000340}}
+  .bonham-sidebar-inner {
+    margin-right: 0; } }

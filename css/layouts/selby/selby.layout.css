@@ -1,0 +1,57 @@
+/**
+ * @file
+ * Selby panel layout
+**/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\000038}}
+.selby-container,
+.selby-content-header,
+.selby-content-container-column-container {
+  margin-bottom: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\0000312}}
+.selby-column {
+  min-height: 1px;
+  width: 34.043%;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\0000318}}
+.selby-column-inner {
+  margin-right: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\0000322}}
+.selby-content-column2-inner {
+  margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\0000326}}
+.selby-content-container {
+                         /* This is floated to the left of the sidebar,
+which is styled by the generic "selby-column" class */
+  min-height: 1px;
+  float: left;
+  width: 65.957%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\0000333}}
+.selby-content-container .selby-column {
+  width: 51.613%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\0000337}}
+.selby-content-container .selby-content-column2 {
+  width: 48.387%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\0000341}}
+.selby-content-column2-inner {
+  margin-right: 0; }
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\0000350}}
+  .selby-column,
+  .selby-content-container,
+  .selby-content-container .selby-column,
+  .selby-content-container .selby-content-column2 {
+    width: 100%;
+    float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/selby\/selby\.layout\.scss}line{font-family:\0000355}}
+  .selby-column-inner {
+    margin-right: 0; } }

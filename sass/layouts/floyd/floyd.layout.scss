@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Floyd panel layout
+**/
+
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+//Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
+
+.floyd-container {
+  margin-bottom: $vert-spacing-unit;
+}
+
+.floyd-sidebar {
+  min-height: 1px;
+  width: 34.043%;
+  float: left;
+}
+
+  .floyd-sidebar-inner {
+    margin-right: $horz-spacing-unit;
+  }
+
+.floyd-content {
+  float: left;
+  width: 65.957%;
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .floyd-content,
+  .floyd-sidebar {
+    width: 100%;
+    float: none;
+  }
+  
+  .floyd-sidebar-inner {
+    margin-right: 0;
+  }
+}

@@ -12,14 +12,14 @@
 
 <div class="panel-display floyd-flipped clearfix <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
-  <div class="floyd-flipped-container floyd-flipped-content-container clearfix">
-    <div class="floyd-flipped-content floyd-flipped-content-region panel-panel">
-      <div class="floyd-flipped-content-inner floyd-flipped-content-region-inner panel-panel-inner">
+  <div class="floyd-flipped-container clearfix">
+    <div class="floyd-flipped-content panel-panel">
+      <div class="floyd-flipped-content-inner panel-panel-inner">
         <?php print $content['contentmain']; ?>
       </div>
     </div>
-    <div class="floyd-flipped-sidebar floyd-flipped-content-region panel-panel">
-      <div class="floyd-flipped-sidebar-inner floyd-flipped-content-region-inner panel-panel-inner">
+    <div class="floyd-flipped-sidebar panel-panel">
+      <div class="floyd-flipped-sidebar-inner panel-panel-inner">
         <?php print $content['sidebar']; ?>
       </div>
     </div>

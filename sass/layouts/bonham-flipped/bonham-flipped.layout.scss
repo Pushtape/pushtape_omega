@@ -3,8 +3,15 @@
  * Bonham Flipped panel layout
 **/
 
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+//Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
 .bonham-flipped-container {
-  margin-bottom: 1em;
+  margin-bottom: $vert-spacing-unit;
 }
 
 .bonham-flipped-sidebar {
@@ -19,7 +26,7 @@
 }
 
   .bonham-flipped-content-inner {
-    margin-right: 20px;
+    margin-right: $horz-spacing-unit;
   }
   
 /* iPhone [portrait + landscape] */

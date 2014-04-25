@@ -1,11 +1,11 @@
 <?php
 // Plugin definition
 $plugin = array(
-  'title' => t('Bonham Flipped'),
-  'icon' => 'bonham-flipped.png',
+  'title' => t('Bonham'),
+  'icon' => 'bonham.png',
   'category' => t('Pushtape'),
-  'theme' => 'bonham_flipped',
-  'css' => 'css/layouts/bonham-flipped/bonham-flipped.layout.css',
+  'theme' => 'bonham',
+  'css' => 'css/layouts/bonham/bonham.layout.css',
   'regions' => array(
     'header' => t('Header'),
     'sidebar' => t('Content Sidebar'),

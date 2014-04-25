@@ -20,15 +20,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .h1 {
   font-size: 2em;
   line-height: 1.2;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: $vert-spacing-unit;
+  margin-bottom: $vert-spacing-unit;
 }
 
 h1.site-name {
   font-size: 3em;
   line-height: 1;
-  margin-top: 0.5em;
-  margin-bottom: 0.25em;
+  margin-top: $vert-spacing-unit;
+  margin-bottom: $vert-spacing-unit;
 }
 
 .site-name a {
@@ -38,7 +38,7 @@ h1.site-name {
 h2, .h2 {
   font-size: 1.5em;
   line-height: 1;
-  margin-top: 1em;
+  margin-top: .25em;
   margin-bottom: .25em;
 }
 

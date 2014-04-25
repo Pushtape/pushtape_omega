@@ -1,0 +1,67 @@
+/**
+ * @file
+ * Santana panel layout
+**/
+
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+//Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
+
+.santana-container,
+.santana-content-header,
+.santana-content-container-column-container {
+  margin-bottom: $vert-spacing-unit;
+}
+
+.santana-column {
+  min-height: 1px;
+  width: 34.043%;
+  float: left;
+}
+
+  .santana-column-inner {
+    margin-right: $horz-spacing-unit;
+  }
+
+  .santana-content-column2-inner {
+    margin-right: 0;
+  }
+  
+.santana-content-container { /* This is floated to the left of the sidebar,
+  which is styled by the generic "santana-column" class */
+  min-height: 1px;
+  float: left;
+  width: 65.957%;
+}
+
+  .santana-content-container .santana-column {
+    width: 51.613%;
+  }
+  
+  .santana-content-container .santana-content-column2 {
+    width: 48.387%;
+  }
+  
+    .santana-content-column2-inner {
+      margin-right: 0;
+    }
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .santana-column,
+  .santana-content-container,
+  .santana-content-container .santana-column,
+  .santana-content-container .santana-content-column2 {
+    width: 100%;
+    float: none;
+  }
+  
+  .santana-column-inner {
+    margin-right: 0;
+  }
+}
+

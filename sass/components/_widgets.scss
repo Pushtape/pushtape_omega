@@ -1,13 +1,25 @@
-.fieldable-panels-pane, .view-events, .view-news, .view-photosets, .view-releases, .view-albums, .view-tracks, .view-video, .follow-links {
-  background: #fafafa url(../images/noise.png);
-  border: solid 2px #F2F2F2;
+.panel-pane {
+  margin-top: $vert-spacing-unit;
+  margin-bottom: $vert-spacing-unit;
   padding: 1em;
+  background: #fafafa url(../images/noise.png);
+  border: solid 1px #F2F2F2;
   height: auto;
   border-radius: 5px;
   font-size: 90%;
 }
 
+.pane-entity-field, .pane-node-links {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  font-size: inherit;
+}
 
+.view-content .views-row {
+  padding: .25em 0 .25em 0;
+}
 
 
 

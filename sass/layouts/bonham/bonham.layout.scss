@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Bonham panel layout
+**/
+
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+//Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
+.bonham-container {
+  margin-bottom: $vert-spacing-unit;
+}
+
+.bonham-sidebar {
+  min-height: 1px;
+  width: 34.043%;
+  float: left;
+}
+
+  .bonham-sidebar-inner {
+    margin-right: $horz-spacing-unit;
+  }
+
+.bonham-content {
+  width: 65.957%;
+  float: left;
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+  .bonham-content,
+  .bonham-sidebar {
+    width: 100%;
+    float: none;
+  }
+  
+  .bonham-sidebar-inner {
+    margin-right: 0;
+  }
+  
+}

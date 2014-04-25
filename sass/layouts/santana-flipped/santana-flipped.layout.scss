@@ -3,10 +3,17 @@
  * Santana Flipped panel layout
 **/
 
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+//Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
 .santana-flipped-container,
 .santana-flipped-content-header,
 .santana-flipped-content-container-column-container {
-  margin-bottom: 1em;
+  margin-bottom: $vert-spacing-unit;
 }
 
 .santana-flipped-column {
@@ -16,7 +23,7 @@
 }
 
   .santana-flipped-column-inner {
-    margin-right: 20px;
+    margin-right: $horz-spacing-unit;
   }
 
     .santana-flipped-content-column2-inner {
@@ -31,7 +38,7 @@
 }
 
   .santana-flipped-content-container-inner {
-    margin-right: 20px;
+    margin-right: $horz-spacing-unit;
   }
   
   .santana-flipped-content-container .santana-flipped-column {

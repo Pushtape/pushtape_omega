@@ -1,0 +1,57 @@
+/**
+ * @file
+ * Santana panel layout
+**/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000316}}
+.santana-container,
+.santana-content-header,
+.santana-content-container-column-container {
+  margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000320}}
+.santana-column {
+  min-height: 1px;
+  width: 34.043%;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000326}}
+.santana-column-inner {
+  margin-right: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000330}}
+.santana-content-column2-inner {
+  margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000334}}
+.santana-content-container {
+                           /* This is floated to the left of the sidebar,
+which is styled by the generic "santana-column" class */
+  min-height: 1px;
+  float: left;
+  width: 65.957%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000341}}
+.santana-content-container .santana-column {
+  width: 51.613%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000345}}
+.santana-content-container .santana-content-column2 {
+  width: 48.387%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000349}}
+.santana-content-column2-inner {
+  margin-right: 0; }
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000358}}
+  .santana-column,
+  .santana-content-container,
+  .santana-content-container .santana-column,
+  .santana-content-container .santana-content-column2 {
+    width: 100%;
+    float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gusaus\/Sites\/pushtape\/pushtape-panels\/profiles\/pushtape\/themes\/pushtape_omega\/sass\/layouts\/santana\/santana\.layout\.scss}line{font-family:\0000363}}
+  .santana-column-inner {
+    margin-right: 0; } }
