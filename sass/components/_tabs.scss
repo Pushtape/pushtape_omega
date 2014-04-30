@@ -1,0 +1,33 @@
+.tabs a {
+  -moz-text-decoration-color: -moz-use-text-color;
+  -moz-text-decoration-line: none;
+  -moz-text-decoration-style: solid;
+  background-color: #EEEEEE;
+}
+.tabs a.active {
+  background-color: #CCCCCC;
+}
+.tabs a:hover, .tabs a:focus {
+  background-color: #BBBBBB;
+}
+.tabs--primary {
+  border: none;
+  margin-bottom: 1em;
+}
+.tabs--primary a {
+  padding-bottom: 0.3em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-top: 0.3em;
+}
+.tabs--secondary a {
+  font-size: 0.9em;
+  margin-bottom: 0.4em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.4em;
+  padding-bottom: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+}
